@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    height: 50vh;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 12px;
+}
+
+.first {
+    border: 3px solid red;
+    grid-column: 1 / span 4;
+    padding: 5px;
+}
+
+.second {
+    border: 3px solid red;
+    grid-column: 5 / span 8;
+    padding: 5px;
+}
